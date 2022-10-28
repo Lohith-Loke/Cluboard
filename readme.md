@@ -1,3 +1,17 @@
+# Docker Image 
+
+build image 
+>`docker build -t club .`
+
+run docker image 
+>`docker run -it -p 0.0.0.0:8000:8000 club`
+
+Use docker compose  
+to start docker container 
+
+> `docker-compose up`
+
+
 # Cluboard (formerly InvManage)
 A Full-Stack Web Application to facilitate sharing resources in college clubs. Clubs have resources that any of their members can borrow upon request. Members can borrow resources when approved by the convener of the club.
 
